@@ -1,0 +1,60 @@
+body{
+	background-color: rgba(255,255,255,0.2);
+	background-blend-mode: lighten;
+	background-image: url('background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    margin: 0; 
+	font-family: Georgia;
+
+.container{
+	background: rgba(240, 245, 252, 0.95);
+	border: 2px solid #ffffff;
+}
+
+h1{
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+h1, h3{
+	font-family: Satisfy;
+	color: #344353;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table td {
+    padding: 0;
+    margin: 0;
+}
+
+table td img {
+    width: 100%;
+    display: block
+}
+
+a{
+  color: #344353;
+}
+
+.custom{
+	background-color: #ffffff;
+	color: #344353;
+	font-family: Georgia;
+	border: none;
+
+}
+
+.custom:hover,
+.custom:active,
+.custom:focus {
+	color: #ffffff;
+	background-color: #344353;
+}
